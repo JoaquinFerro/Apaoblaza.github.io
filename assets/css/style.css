@@ -1,0 +1,22 @@
+main {
+  color: white;
+}
+.img-logo {
+  height: 2rem;
+}
+.mifoto img {
+  border-radius: 50%;
+  width: 25rem;
+}
+.mifoto {
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+}
+.first-impression {
+  text-align: center;
+}
+.first-impression p {
+  font-size: larger;
+  margin-bottom: 10rem;
+}

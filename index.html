@@ -10,15 +10,18 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link href="./assets/css/style.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/e342f81536.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"
+          ><img class="img-logo" src="./assets/img/Logo-Pablo.png"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -30,54 +33,62 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div
+          class="collapse navbar-collapse text-white"
+          id="navbarSupportedContent"
+        >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#about">Acerca de mi</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Educación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./assets/pages/portfolio.html"
+                >Portafolio</a
               >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
     </nav>
     <main>
-      <section><!-- Sección de Educación--></section>
-      <section><!-- Sección de Experiencia--></section>
+      <section class="mifoto">
+        <img src="./assets/img/yo.jpg" />
+      </section>
+      <section class="first-impression">
+        <h1>¡Hola!, Soy Pablo</h1>
+        <p>
+          ¡Muchas gracias por entrar en mi perfil!<br />
+          Aqui hay algo de información sobre mi historia laboral que te podría
+          interesar
+        </p>
+      </section>
+      <section class="aboutme" id="about">
+        <h1>Acerca de</h1>
+        <p>
+          Soy ingeniero mecánico con experiencia en gestión de projectos,
+          liderando el diseño y desarrollo de diferentes tipos de proyectos que
+          generan gran valor. Mis habilidades de liderazgo y rendimiento
+          probadas tanto en trabajo remoto como en sitio, abordando cada desafío
+          pensando críticamente. Siempre estoy enfocado en crear una relación de
+          confianza con los stakeholders clave de cada proyecto.
+        </p>
+      </section>
+      <section class="education" id="education">
+        <!-- Sección de Educación-->
+      </section>
+
+      <section class="experience" id="experience">
+        <!-- Sección de Experiencia-->
+      </section>
     </main>
     <footer><!--Contacto, u otras cosas típicas de footer--></footer>
   </body>
