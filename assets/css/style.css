@@ -1,22 +1,30 @@
 main {
   color: white;
+  background-image: url("../img/Background-1.jpg");
+  background-size: cover;
 }
 .img-logo {
   height: 2rem;
 }
 .mifoto img {
   border-radius: 50%;
-  width: 25rem;
+  width: 20rem;
 }
 .mifoto {
   display: flex;
-  justify-content: center;
+  justify-content: Center;
+  align-items: center;
+  gap: 10rem;
   /*align-items: center;*/
 }
-.first-impression {
-  text-align: center;
+.bajada {
+  font-size: 1.5rem;
 }
 .first-impression p {
   font-size: larger;
   margin-bottom: 10rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
 }
