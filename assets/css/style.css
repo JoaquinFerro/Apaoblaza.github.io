@@ -28,3 +28,9 @@ footer {
   display: flex;
   justify-content: center;
 }
+.accordion-body img {
+  width: 75%;
+  border-radius: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
